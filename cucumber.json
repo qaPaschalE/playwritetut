@@ -1,0 +1,13 @@
+{
+  "default": {
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "paths": ["playwright-test-examples/features/**/*.feature"],
+    "require": ["playwright-test-examples/step_definitions/**/*.ts"],
+    "publishQuiet": true,
+    "dryRun": true,
+    "requireModule": ["ts-node/register"],
+    "format": ["pretty"]
+  }
+}
